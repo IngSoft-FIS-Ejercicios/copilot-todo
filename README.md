@@ -16,93 +16,33 @@
 
 ## 🧠 Generación del Código Usando GitHub Copilot
 
-Abre cada uno de los archivos y sigue las indicaciones a continuación para generar el código utilizando Copilot:
+### Paso 1: Generar HTML Básico
+Comienza generando la estructura básica de HTML5 y asegúrate de incluir las referencias a `script.js` y `style.css`.
 
-### Paso 1: Generar la estructura básica del HTML
+### Paso 2: Crear Formulario de Tareas
+Genera un formulario con un campo de texto y un botón para agregar tareas.
 
-En `index.html`, escribe un comentario para indicar a Copilot que genere la estructura HTML básica:
+### Paso 3: Mostrar Tareas
+Haz que la lista de tareas se muestre claramente y que el formulario esté debajo de la lista.
 
-```html
-<!-- @workspace, genera la estructura básica del HTML -->
-```
+### Paso 4: Agregar Funcionalidad con JavaScript
+Escribe un comentario en script.js para que Copilot genere el código necesario para agregar tareas utilizando ECMAScript 6. Puedes pedir que te explique el código con el comando `/explain`.
 
-Presiona `Ctrl + Enter` (o `Cmd + Enter` en Mac) para que Copilot sugiera la estructura inicial del archivo. Acepta la sugerencia.
+### Paso 5: Estilo con CSS
+Solicita un estilo moderno para el formulario y la lista de tareas en `styles.css`.
 
-### Paso 2: Crear un formulario para agregar tareas
+### Paso 6: Funcionalidad Adicional
+Añade un checkbox a cada tarea para marcarla como completada.
 
-Añade un formulario con un campo de texto y un botón para agregar tareas:
+### Paso 7: Botón de Eliminación
+Incorpora un botón de eliminación junto a cada tarea en la lista.
 
-```html
-<!-- @workspace, genera un formulario con un input para agregar tareas y un botón de agregar -->
-```
+### Paso 8: Estilo del Checkbox y Botón
+Modifica el estilo del checkbox y del botón de eliminación para que se integren con el diseño general.
 
-### Paso 3: Mostrar la lista de tareas y el formulario
+### Paso 9: Ícono de Papelera
+Reemplaza el botón de eliminación con un ícono de papelera (`papelera.png`) y ajusta su tamaño en el CSS.
 
-Configura la estructura HTML para que la lista de tareas se muestre arriba del formulario:
-
-```html
-<!-- @workspace, genera una lista de tareas en una lista ordenada con el formulario para agregar tareas debajo -->
-```
-
-### Paso 4: Agregar funcionalidad con JavaScript
-
-En `script.js`, escribe lo siguiente para que Copilot genere el código necesario para agregar tareas a la lista:
-
-```javascript
-// @workspace, genera el JavaScript necesario para agregar tareas a la lista y mostrarlas en la interfaz
-```
-
-### Paso 5: Editar el estilo con CSS
-
-En `styles.css`, pídele a Copilot que sugiera un estilo moderno para el formulario y la lista de tareas:
-
-```css
-/* @workspace, sugiere un estilo moderno para la lista de tareas y el formulario */
-```
-
-### Paso 6: Agregar funcionalidad adicional
-
-Para agregar un checkbox en cada tarea, sigue estos pasos en `index.html`:
-
-```html
-<!-- @workspace, agrega un checkbox a cada elemento de la lista de tareas para marcarlo como completado -->
-```
-
-En `script.js`, agrega el comportamiento para tachar la tarea cuando se marque el checkbox:
-
-```javascript
-// @workspace, añade el código para tachar la tarea cuando el checkbox esté marcado
-```
-
-### Paso 7: Agregar un botón para eliminar tareas
-
-Pídele a Copilot que añada un botón de eliminación junto a cada tarea:
-
-```html
-<!-- @workspace, agrega un botón para eliminar cada tarea en la lista -->
-```
-
-### Paso 8: Editar el estilo del checkbox y del botón
-
-Utiliza `styles.css` para modificar el estilo del checkbox y del botón de eliminación:
-
-```css
-/* @workspace, edita el estilo del checkbox y el botón de eliminación para que combinen con el diseño */
-```
-
-### Paso 9: Sustituir el botón de eliminación por un ícono de papelera
-
-Si tienes un ícono de papelera (`papelera.png`), pídele a Copilot que lo utilice en lugar del botón:
-
-```html
-<!-- @workspace, usa "papelera.png" como ícono de eliminación y ajústalo al tamaño adecuado -->
-```
-
-En `styles.css`, ajusta el tamaño de la imagen de la papelera:
-
-```css
-/* @workspace, ajusta el tamaño de "papelera.png" para que combine con el resto de la interfaz */
-```
 
 ## 💻 Ejecución del Proyecto
 
