@@ -10,8 +10,9 @@
 
 ### Prerrequisitos
 
-- Asegurate de tener **Visual Studio Code** instalado.
-- Instala la **extensión de GitHub Copilot** y autenticate con tu cuenta de GitHub.
+- Tener acceso a [**GitHub Education y GitHub Student Developer Pack**](/Guía%20para%20obtener%20GitHub%20Student%20Developer%20Pack.pdf)
+- Tener **Visual Studio Code** instalado
+- Tener la [**extensión de GitHub Copilot** instalada y estar autenticado con tu cuenta de GitHub](/Guía%20para%20configurar%20GitHub%20Copilot%20en%20Visual%20Studio%20Code.pdf)
 
 ## 🧠 Generación del Código Usando GitHub Copilot
 
