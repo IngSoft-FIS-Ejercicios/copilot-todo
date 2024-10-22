@@ -14,6 +14,7 @@
 - Tener **Visual Studio Code** instalado
 - Tener la [**extensión de GitHub Copilot** instalada y estar autenticado con tu cuenta de GitHub](/Guía%20para%20configurar%20GitHub%20Copilot%20en%20Visual%20Studio%20Code.pdf)
 
+Acceso al repositorio: https://classroom.github.com/a/w_Ci1dlA
 ## 🧠 Generación del Código Usando GitHub Copilot
 
 ### Paso 1: Generar HTML Básico
